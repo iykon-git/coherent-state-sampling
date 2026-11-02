@@ -13,7 +13,7 @@ The script samples vibrational configurations within the linear coupling model u
 For each mode $i$, the vibrational occupation number is independently sampled from a Poisson distribution with mean $S_i$, where $S_i$ is the Huang–Rhys factor:
 
 $$
-n_i \sim \operatorname{Poisson}(S_i).
+n_i \sim \mathrm{Poisson}(S_i).
 $$
 
 One CSS event is a complete configuration $\mathbf{n}=(n_1,\ldots,n_M)$ of all $M$ input modes. Sampling is performed without an occupation-number cutoff.
